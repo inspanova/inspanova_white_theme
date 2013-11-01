@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 31, 2013, 11:51:44 AM
+    Author     : remya
+*/
+body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color: #595451;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0 0 15px #595451;
+}
+.content {
+    min-height: 340px;
+    float: left;
+    width: 95%;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+#company_content section {
+    width: 47%;
+    min-height: 190px;
+    display: block;
+    float: left;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+#company_content section h6 {
+    font-size: 20px;
+    margin: 0px;
+}
+#company_content section p {
+    text-align: justify;
+    line-height: 25px;
+}
+.right_section {
+    margin-left: 43px;   
+}
+header {
+    width: 100%;
+    height: auto;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #F8F8F8;
+}
+.menu {
+    width: 63%;
+    height: 70px;
+    padding: 10px 10px 0px 10px;
+    float: right;
+    margin-top: 35px;
+}
+.logo {
+    width: 133px;
+    height: 146px;
+    display: block;
+    float: left;
+    position: relative;
+}
+.logo h1 {
+    display: block;
+    font-family: Century Schoolbook L;
+    font-size: 20px;
+    left: 136px;
+    position: absolute;
+    top: 104px;
+    width: 300px;
+    color: #595451;
+}
+ul li {
+    display: block;
+    float: left;
+    font-size: 15px;
+    width: 110px;
+    color: #595451;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 15px;
+    height: 37px;
+    margin: 0px 3px 0px 3px;
+}
+.menu ul li:hover, .selected {
+    color: #000;    
+}
+.menu ul {
+    display: block;
+    height: 30px;
+    margin: 18px auto auto;
+    padding: 0;
+    vertical-align: bottom;
+    width: 86%;
+}
+
+footer {
+    height: 110px;
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid #F8F8F8;
+}
+
+.footer_links  {
+ display: block;
+ width: 50%;
+ float: right;
+ height: 30px;
+}
+
+footer ul li {
+    width: auto;
+    padding: 10px;
+    font-size: 12px;
+}
+.social_icons {
+    width: 50%;
+    height: 30px;
+    float: left;
+    display: block;
+    margin-top: 15px;
+}
+.social {
+    width: 32px;
+    height: 32px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.facebook {    
+    background: url('../img/facebook.png') no-repeat;
+}
+.twitter {    
+    background: url('../img/twitter.png') no-repeat;
+}
+.linkedin {    
+    background: url('../img/Linkedin.png') no-repeat;
+}
+.copy_right {
+    width: 100%;
+    height: 20px;
+    color: #595451;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    float: left;
+    margin-top: 35px;
+}
+
+.content_section {
+    width: 95%;
+    min-height: 300px;
+    position: absolute;
+    margin-left: -2000px;
+    color: #595451;
+    font-size: 14px;
+}
+
+.content_section p {
+    line-height: 26px;
+    text-align: justify;
+}
